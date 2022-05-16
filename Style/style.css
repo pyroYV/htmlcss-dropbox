@@ -26,12 +26,22 @@ nav a{
 h2{
     font-size: 40px;
 }
-    /* MAIN */
+
+body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+}
+
+
+    /* HEADER */
 .top{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding: 5px 15px;
+    padding: 5px 10px;
+    width: 99%;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
 }
 
 .t-left{
@@ -56,6 +66,7 @@ h2{
     /* MAIN */
 main{
     height: calc(100vh - 70px);
+
 }
 
     /* HERO */
