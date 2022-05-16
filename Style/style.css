@@ -7,16 +7,24 @@
 a{
     text-decoration: none;
 }
-
-nav ul{
+ul{
     list-style-type: none;
+}
+nav ul{
     display: flex;
 }
 nav li{
     height: 100%;
 }
+nav a{
+    line-height: 20px;
+}
 .container{
     display: flex;
+}
+
+h2{
+    font-size: 40px;
 }
     /* MAIN */
 .top{
@@ -24,7 +32,6 @@ nav li{
     align-items: center;
     height: 80px;
     padding: 5px 15px;
-    border: solid red 1px;
 }
 
 .t-left{
@@ -50,6 +57,8 @@ nav li{
 main{
     height: calc(100vh - 70px);
 }
+
+    /* HERO */
 .hero{
     margin: 0 auto;
     width: 70%;
@@ -86,4 +95,107 @@ main{
 .hero-left i{
     position: absolute;
     bottom: 14%;
+}
+
+/* Business section */
+.w-60{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    /* border: solid; */
+}
+
+.radio-buttons{
+    align-content: center;
+    margin: 40px 0;
+}
+.radio-button {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+}
+.radio-on{
+    border: #0061ff 3px solid;
+}
+.radio-off{
+    border:solid 2px grey;
+    margin-left: 50px;
+    
+}
+
+/* Carte e plans */
+.plans{
+    justify-content: space-between;
+}
+.card{
+    border: solid 1px lightgrey;
+    flex-basis: 30%;
+}
+.plan{
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 1px lightgrey;
+}
+h3{
+    font-size: 28px;
+}
+.card-content{
+    padding: 30px;
+    line-height: 2.5em;
+}
+
+.price{
+    font-weight: bolder;
+}
+
+.price::before{
+    content: "€";
+}
+
+.user::before{
+    content: "↓ ";
+}
+
+.storage::before{
+    content: "↓ ";
+}
+
+.premium::before{
+    content: "↓ ";
+}
+
+.trial{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.card-button{
+  display: block;
+  text-align: center;
+}
+
+.spacer{
+    width: 30%;
+    border:solid 1px lightgrey;
+    margin: 2rem 0;
+}
+
+.card-wide{
+    margin-top: 50px;
+    border: solid 1px lightgrey;
+}
+.wide-left{
+    width: 60%;
+}
+.container-wide{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content-wide{
+    margin-top: 2em;
 }
