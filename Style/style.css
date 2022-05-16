@@ -1,5 +1,5 @@
 *{
-    font-family: 'poppins' sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 0%;
     margin: 0%;
 }
@@ -18,12 +18,12 @@ nav li{
 .container{
     display: flex;
 }
-
+    /* MAIN */
 .top{
     justify-content: space-between;
     align-items: center;
-    height: 70px;
-   /*  padding: 5px; */
+    height: 80px;
+    padding: 5px 15px;
     border: solid red 1px;
 }
 
@@ -38,7 +38,52 @@ nav li{
     height: 100%;
 }
 
-.t-button{
+.blue-button{
     color: white;
     background-color: #0061ff;
+}
+
+.standard-button{
+    padding: 10px;
+}
+    /* MAIN */
+main{
+    height: calc(100vh - 70px);
+}
+.hero{
+    margin: 0 auto;
+    width: 70%;
+   /* border: solid; */
+   transform: translate(0, 100px);
+   padding: 10px;
+}
+.skyblue{
+    background-color:#b4d0e7;
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 82px;
+}
+
+.hero-container{
+    display: flex;
+    padding: 40px 0;
+    
+}
+
+.hero-left{
+    width: 60%;
+}
+.hero-left > span{
+    display: inline-block;
+    margin: 40px 0;
+}
+.hero-right img{
+    width: 100%;
+}
+
+.hero-left i{
+    position: absolute;
+    bottom: 14%;
 }
