@@ -137,7 +137,8 @@ main{
 .w-60{
     width: 60%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 9.4rem;
+    padding-bottom: 9.4rem;
     /* border: solid; */
 }
 
@@ -274,6 +275,7 @@ h3{
 
 .business{
     padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .features{
@@ -295,4 +297,27 @@ h3{
 .single-feature h3{
     line-height: 2.6rem;
     padding-bottom: 1.5rem;
+}
+
+.p-large h2{
+    padding-bottom: 2.5rem;
+}
+
+    /* boxes */
+
+.boxes{
+    border: solid orange;
+    
+}
+
+.box-side{
+    width: 33.3333vw;
+    height: 33.3333vw;
+    flex-flow: row wrap;
+}
+
+.box{
+    width: 16.6666vw;
+    height: 16.6666vw;
+    border: solid blue;
 }
