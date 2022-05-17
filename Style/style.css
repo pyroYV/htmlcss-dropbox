@@ -88,11 +88,6 @@ body::-webkit-scrollbar {
 .standard-button{
     padding: 10px;
 }
-    /* MAIN */
-main{
-    height: calc(100vh - 70px);
-
-}
 
     /* HERO */
 .hero{
@@ -137,9 +132,12 @@ main{
 .w-60{
     width: 60%;
     margin: 0 auto;
+    /* border: solid; */
+}
+
+.main-padding{
     padding-top: 9.4rem;
     padding-bottom: 9.4rem;
-    /* border: solid; */
 }
 
 .radio-buttons{
@@ -376,3 +374,112 @@ h3{
     background-color: #ffd830;
 }
 
+.centered{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 120px;
+}
+.centered h2{
+    color: brown;
+}
+.centered .p-small{
+    align-self: flex-start;
+    text-align: right;
+}
+
+.trial-btn{
+    padding: 10px 20px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+            /* FAQ */
+
+.faq-question{
+    position: relative;
+}
+.faq-question::after{
+    content: " ";
+    height: 8px;
+    width: 17px;
+    background-color: black;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 18px;
+    top:50%;   
+    transition: 0.3s;
+ 
+    
+}
+
+.faq-question::before{
+    content: " ";
+    height: 8px;
+    width: 17px;
+    background-color: black;
+    transform: rotate(-45deg);
+    position: absolute;
+    right: 10px;
+    top:50%;   
+    transition: 0.3s;
+   
+}
+
+
+.qna:hover .faq-question::after{
+    /* display: none; */
+    transform: rotate(-45deg);
+}
+
+
+.qna:hover .faq-question::before{
+    /* display: none; */
+    transform: rotate(45deg);
+}
+.faq-answer{
+    display: none;
+    padding-top: 20px;
+}
+
+.qna:hover .faq-answer{
+    display: block;
+}
+
+.faqs{
+    padding-top: 50px;
+}
+
+.faqs h3{
+    font-size: 24px;
+}
+
+.qna{
+    padding: 50px 0;
+    border-top: solid;
+}
+
+.qna-bottom{
+    border-bottom:solid ;
+}
+
+/* Foooter */
+
+.w-70{
+    width: 70%;
+    margin: 0 auto;
+ 
+}
+footer{
+    background-color: black;
+    padding: 100px 0;
+    color: whitesmoke;
+    line-height: 3rem;
+}
+
+/* footer ul{
+    padding-right: 30px;
+} */
+
+.f-container{
+    justify-content: space-;
+}
