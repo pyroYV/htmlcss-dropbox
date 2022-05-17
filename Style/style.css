@@ -8,6 +8,7 @@
 a{
     text-decoration: none;
 }
+
 ul{
     list-style-type: none;
 }
@@ -373,11 +374,11 @@ h3{
 #cco{
     background-color: #ffd830;
 }
-
+/*  PORTA DROPBOX NELLA TUA AZIENDA  */
 .centered{
     justify-content: space-between;
     align-items: center;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 .centered h2{
     color: brown;
@@ -476,10 +477,15 @@ footer{
     line-height: 3rem;
 }
 
-/* footer ul{
-    padding-right: 30px;
-} */
-
 .f-container{
-    justify-content: space-;
+    justify-content: space-around;
 }
+
+footer a:visited{
+    color: whitesmoke;
+}
+
+footer a:hover{
+    color: #0061ff;
+}
+
