@@ -67,6 +67,11 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     align-items: center;
     flex-direction:row ;
+    text-align: center;
+}
+
+.t-right{
+    align-items: center;
 }
 .ctg{
     color: black;
@@ -251,7 +256,7 @@ h3{
 }
 .p-small h3{
     padding-bottom: 2em; 
-    
+
 }
 
 .clear-btn{
