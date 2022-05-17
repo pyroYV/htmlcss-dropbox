@@ -2,6 +2,7 @@
     font-family: 'Open Sans', sans-serif;
     padding: 0%;
     margin: 0%;
+   /*  outline: 1px solid green; */
 }
 
 a{
@@ -15,6 +16,8 @@ nav ul{
 }
 nav li{
     height: 100%;
+    line-height: 78px;
+    border-bottom: solid;
 }
 nav a{
     line-height: 20px;
@@ -30,7 +33,9 @@ h2{
 body {
     scrollbar-width: thin;          /* "auto" or "thin" */
 }
-
+img{
+    display: block;
+}
 
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
@@ -50,12 +55,12 @@ body::-webkit-scrollbar {
 .top{
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    padding: 5px 10px;
-    width: 99%;
+    /* padding: 0px 10px; */
+    width: 100%;
     position: fixed;
     background-color: white;
     z-index: 3;
+    line-height: 87px;
 }
 
 .t-left{
@@ -223,4 +228,38 @@ h3{
 
 .content-wide{
     margin-top: 2em;
+}
+
+    /* partner box */
+
+.partner{
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8rem;
+    
+}
+.p-large{
+    flex-basis: 55%;
+}
+.p-large img{
+    width: 100%;
+}
+
+.p-small{
+    flex-basis: 40%;
+    line-height: 2em; 
+}
+.p-small h3{
+    padding-bottom: 2em; 
+    
+}
+
+.clear-btn{
+    border: solid;
+    color: black;
+    margin-top: 2rem;
+}
+
+.btn-margin{
+    padding-top: 2em;
 }
