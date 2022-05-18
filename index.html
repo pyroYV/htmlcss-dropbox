@@ -16,22 +16,28 @@
                 <div class="t-left container">
                     <a href=""><img src="./img/logo-small.png" alt="Logo Dropbox"></a>
                     <ul>
-                    <li> <a href="#" class="ctg">Perchè Dropbox</a></li>
-                        <li> <a href="#" class="ctg">Funzioni</a></li>
-                            <li><a href="#" class="ctg">Piani e prezzi</a></li>
+                    <li id="dropdown">
+                        <a href="#" class="ctg">Perchè Dropdown?</a>
+                        <div class="dropdown-window container">
+                        
+                            <a href="" class="dropdown-item">Drop1</a>
+                            <a href="" class="dropdown-item">Drop2</a>
+                            <a href="" class="dropdown-item">Dropped</a>
+                        </div>
+                    </li>
+                    <li class="border-over"><a href="#" class="ctg">Funzioni</a></li>
+                    <li class="border-over"><a href="#" class="ctg">Piani e prezzi</a></li>
                 </ul>
                 </div>
                 <img src="./img/boolean-logo.png" alt="">
                 <div class="t-right container">
                     <ul>
-                    <li><a href="#" class="ctg">Lorem</a></li>
-                    <li><a href="#" class="ctg">Lorem</a></li>
-                    <li><a href="#" class="ctg">Lorem</a></li>
-                    <li>
-                        <a href="#" class="blue-button standard-button">Inizia</a>
-                    </li>
+                    <li class="border-over"><a href="#" class="ctg">Lorem</a></li>
+                    <li class="border-over"><a href="#" class="ctg">Lorem</a></li>
+                    <li class="border-over"><a href="#" class="ctg">Lorem</a></li>
+                        
                 </ul>
-                   
+                <a href="#" class="blue-button standard-button login-button">Inizia</a>
                 </div>
             </div>
         </nav>       
@@ -50,7 +56,7 @@
                  <br>
                  <span>Annulla in qualsiasi momento</span> 
                  <br>
-                 <i class="fa-solid fa-arrow-down fa-3x"></i>
+                 <a href="#anchor"><i class="fa-solid fa-arrow-down fa-3x"></i></a>
 
             </div>
             <div class="hero-right">
@@ -99,13 +105,13 @@
                     </div>
 
                     <div class="card">
-                        <div class="plan"> <i class="fa-solid fa-user"></i> Singolo</div>
+                        <div class="plan"><i class="fa-solid fa-user-group"></i>Team</div>
                         <div class="card-content">
-                            <h3>Professional</h3>
-                            <div class="price">12.00</div>
-                            /mese
+                            <h3>Advenced</h3>
+                            <div class="price">18.00</div>
+                            /utente/mese
                             <ul>
-                                <li class="user">1 Utente</li>
+                                <li id="user-group">3 o più utenti</li>
                                 <li class="storage">5 TB di spazio di archiviazione sicuro</li>
                                 <li class="premium">Funzioni di produttività premium e condivisione file semplice e sicura</li>
                             </ul>
@@ -163,7 +169,7 @@
                 </div>
             </section>
             <section>
-                <div class="container partner">
+                <div class="container partner" id="anchor">
                     <div class="p-large">
                         <img src="./img/partner.png" alt="">
                     </div>
@@ -395,6 +401,10 @@
                 </ul>
             
             </div>
+
+            <div class="spacer"></div>
+
+           <div class="lenguage-selection"><i class="fa-solid fa-earth-americas"></i> Italiano ▲</div> 
         </div>
     </footer>
 </body>
